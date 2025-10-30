@@ -10,8 +10,6 @@
     "express": "^4.18.2",
     "mongoose": "^7.0.0",
     "dayjs": "^1.11.7",
-    "dayjs-plugin-utc": "^0.1.0",
-    "dayjs-plugin-timezone": "^0.1.0",
     "cors": "^2.8.5",
     "body-parser": "^1.20.2"
   },
