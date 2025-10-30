@@ -7,8 +7,8 @@ import { fetchEventsForProfile } from './features/events/eventsSlice';
 
 export default function App() {
   const [currentProfile, setCurrentProfile] = useState(null);
-  const profiles = useSelector(s => s.profiles.items);
-  const events = useSelector(s => s.events.items);
+  const profiles = useSelector(s => s?.profiles?.items);
+  const events = useSelector(s => s?.events?.items);
   const dispatch = useDispatch();
 
   const onSelectProfile = (p) => {
